@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 300;
+  margin: 0 0 10px 0;
+}
+
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+
+p, li, td, a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+table {
+  width: 75%;
+}
+
+.top-container, .bottom-container {
+  margin: 0;
+  text-align: center;
+  background-color: #d3eee1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.image {
+  box-sizing: border-box;
+  text-align: left;
+  display: inline-block;
+}
+
+.header {
+  box-sizing: border-box;
+  text-align: center;
+  display: inline-block;
+  width: 66%;
+  padding-top: 30px;
+}
+
+.summary, .skills {
+  display: flex;
+  text-align: left;
+}
+
+.half-box {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 20px 30px;
+  width: 50%;
+}
+
+.third-box {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 32%;
+}
+
+.to-top {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 6%;
+}
+
+.middle-container {
+  text-align: left;
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  padding: 20px 30px;
+}
+
+.title {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding-bottom: 5px;
+}
+
+#self-img {
+  border-radius: 90%;
+  height: 150px;
+  width: 150px;
+  padding: 0 50px;
+}
